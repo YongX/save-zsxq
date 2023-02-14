@@ -12,7 +12,6 @@ let timer = null
 
 const ImageInstance = ImageHelper.getInstance()
 document.body.addEventListener('click', (e) => {
-  // console.log('click');
 
   // 点击 3 次后执行函数
   clearTimeout(timer);
